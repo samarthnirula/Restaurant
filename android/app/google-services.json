@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "614140672196",
+    "firebase_url": "https://indian-chilli-db-default-rtdb.firebaseio.com",
+    "project_id": "indian-chilli-db",
+    "storage_bucket": "indian-chilli-db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614140672196:android:0f0d97d13a5afeab0b7191",
+        "android_client_info": {
+          "package_name": "com.example.indian_chilli_restaurant_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEi1a1YFZq-RdLDRcnjQ10q6MGYg4yjhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

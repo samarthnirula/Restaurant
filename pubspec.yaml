@@ -1,0 +1,36 @@
+name: indian_chilli_restaurant_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_credit_card: ^4.1.0
+  firebase_core: ^3.6.0
+  firebase_database: ^11.0.0
+  flutter_stripe: ^12.0.2
+  cloud_functions: ^5.6.2
+  http: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/butter_chicken.jpg
+    - assets/paneer_tikka.jpg
+    - assets/biryani.jpg
+    - assets/naan.jpg
+    - assets/mango_lassi.jpg
+    - assets/food_bg.jpg

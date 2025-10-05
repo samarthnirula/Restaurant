@@ -1,0 +1,68 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "indian-chilli-db",
+          "appId": "1:614140672196:android:0f0d97d13a5afeab0b7191",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "indian-chilli-db",
+          "appId": "1:614140672196:ios:fd2b5f829f371fb90b7191",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "indian-chilli-db",
+          "appId": "1:614140672196:ios:fd2b5f829f371fb90b7191",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "indian-chilli-db",
+          "configurations": {
+            "android": "1:614140672196:android:0f0d97d13a5afeab0b7191",
+            "ios": "1:614140672196:ios:fd2b5f829f371fb90b7191",
+            "macos": "1:614140672196:ios:fd2b5f829f371fb90b7191",
+            "web": "1:614140672196:web:71cda07b68984d880b7191",
+            "windows": "1:614140672196:web:a04bbc99e521d2210b7191"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    },
+    {
+      "source": "indian_chilli",
+      "codebase": "indian_chilli",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
